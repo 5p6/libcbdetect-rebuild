@@ -28,8 +28,8 @@ else ()
   set(LIB_TYPE STATIC)
 endif ()
 
-set(OpenCV_INCLUDE_DIRS E:/lib/opencv/opencv/build/include)
-set(OpenCV_LIBS E:/lib/opencv/opencv/build/x64/vc15/lib/opencv_world455d.lib)
+
+find_package(OpenCV REQUIRED)
 set(THIRD_PARTY_INCLUDE_DIRS ${OpenCV_INCLUDE_DIRS})
 set(THIRD_PARTY_LIBS ${OpenCV_LIBS})
 include_directories(${THIRD_PARTY_INCLUDE_DIRS}
