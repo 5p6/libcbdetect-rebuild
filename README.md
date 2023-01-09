@@ -1,10 +1,15 @@
-Libcbdetect
+#### Comment
+I'm not the author of libcbdetect,i develop some code and function into this lib,i just save this second develop lib code in my github.
+#### Libcbdetect
 ---
 - Unofficial implemention of [libcbdetect](http://www.cvlibs.net/software/libcbdetect/) in C++.  
 - Deltille detector.  
+- Second develop
+
 
 Libdetect is a fully automatic sub-pixel checkerboard / chessboard / deltille pattern detection. The algorithm autmatically extracts corners to sub-pixel accuracy and combines them to (rectangular) checkerboards / chessboard-like / deltille patterns.  
-  
+
+
 #### Require
 - C++ 14  
 - Opencv >= 3.0  
